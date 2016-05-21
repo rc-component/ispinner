@@ -19,6 +19,11 @@ storiesOf('Spinner', module)
       </div>
     )
   })
+  .add('No animating', () => (
+    <div style={{...boxStyles, width: 80, height: 80}}>
+      <Spinner width={40} animating={false}/>
+    </div>
+  ))
   .add('Large', () => (
     <div style={{...boxStyles, width: 80, height: 80}}>
       <Spinner width={40}/>

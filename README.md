@@ -14,10 +14,11 @@ Build with [webpack](https://webpack.github.io/) and [CSS Modules](https://githu
 
 ## Props
 
-name   | type   | default    | description
--------| ------ | ---------- | ------------
-width  | number | 20         | width and height for spinner element
-type   | string | white      | spinner type, could be `white` and `gray`
+name       | type    | default    | description
+-------    | ------  | ---------- | ------------
+width      | number  | 20         | width and height for spinner element
+type       | string  | white      | spinner type, could be `white` and `gray`
+animating  | boolean | true       | add animating class to spinner if true
 
 Other properties goes to underneath div element.
 
