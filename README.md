@@ -19,6 +19,8 @@ name   | type   | default    | description
 width  | number | 20         | width and height for spinner element
 type   | string | white      | spinner type, could be `white` and `gray`
 
+Other properties goes to underneath div element.
+
 # License
 
 MIT
