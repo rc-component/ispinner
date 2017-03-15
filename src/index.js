@@ -30,7 +30,7 @@ class Spinner extends React.Component {
       [style.animating]: props.animating
     })
     return (
-      <div {...props} className={className} style={styles}>
+      <div className={className} style={styles}>
         <div className={style.blade}></div>
         <div className={style.blade}></div>
         <div className={style.blade}></div>

@@ -6,6 +6,7 @@
     "type": "git",
     "url": "https://github.com/rc-component/ispinner.git"
   },
+  "keywords": ["react-component", "spinner"],
   "license": "MIT",
   "scripts": {
     "prepublish": ". ./.scripts/prepublish.sh",
