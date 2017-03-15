@@ -1,12 +1,15 @@
 {
   "name": "rc-ispinner",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "spinner Component",
   "repository": {
     "type": "git",
     "url": "https://github.com/rc-component/ispinner.git"
   },
-  "keywords": ["react-component", "spinner"],
+  "keywords": [
+    "react-component",
+    "spinner"
+  ],
   "license": "MIT",
   "scripts": {
     "prepublish": ". ./.scripts/prepublish.sh",
