@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 import React from 'react'
 import cx from 'classnames'
 import assign from 'object-assign'
@@ -10,12 +11,9 @@ class Spinner extends React.Component {
     animating: true
   }
   static propTypes = {
-    width: React.PropTypes.number,
-    type: React.PropTypes.oneOf(['white', 'gray']),
-    animating: React.PropTypes.bool
-  }
-  constructor(props) {
-    super(props)
+    width: PropTypes.number,
+    type: PropTypes.oneOf(['white', 'gray']),
+    animating: PropTypes.bool
   }
   render() {
     let props = this.props
