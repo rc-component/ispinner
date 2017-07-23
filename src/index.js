@@ -4,6 +4,11 @@ import cx from 'classnames'
 import assign from 'object-assign'
 import style from './style.css'
 
+if (!(style instanceof Object)) {
+  throw new Error(`rc-ispinner requires css modules of webpack,
+    see: https://github.com/webpack-contrib/css-loader#modules`)
+}
+
 class Spinner extends React.Component {
   static defaultProps = {
     width: 20,
