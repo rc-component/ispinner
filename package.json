@@ -1,6 +1,6 @@
 {
   "name": "rc-ispinner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "spinner Component",
   "repository": {
     "type": "git",
@@ -57,8 +57,7 @@
   "dependencies": {
     "classnames": "^2.2.5",
     "object-assign": "^4.1.0",
-    "prop-types": "^15.5.10",
-    "react-dom": "^15.6.1"
+    "prop-types": "^15.5.10"
   },
   "peerDependencies": {
     "react": "^15.0.0",
